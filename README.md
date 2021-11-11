@@ -10,7 +10,7 @@ Tener instalado:
 
 ## Construido con 🛠️
 
-* [Python](https://www.python.org) - El lenguaje de programación usado
+* [Python](https://www.python.org) - El lenguaje de programación utilizado
 
 ## Autores ✒️
 
