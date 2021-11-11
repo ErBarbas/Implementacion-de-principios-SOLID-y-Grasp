@@ -1,6 +1,6 @@
-# Implementacion-de-principios-SOLID-y-Grasp
+# Implementación-de-principios-SOLID-y-Grasp
 
-Actividad 2 de la asignatura fundamentos de diseño. Universidad Ibero.
+Actividad 2 de la asignatura "Fundamentos de diseño". Corporación Universitaria Iberoamericana.
 
 ### Pre-requisitos 📋
 
