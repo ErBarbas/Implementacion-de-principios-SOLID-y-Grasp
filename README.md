@@ -6,6 +6,7 @@ Actividad 2 de la asignatura fundamentos de diseño. Universidad Ibero.
 
 Tener instalado:
 * **Python** - https://www.python.org
+* Algún Editor de codigo como: [VS Code](https://code.visualstudio.com) o [PyCharm](https://www.jetbrains.com/es-es/pycharm/)
 
 ## Construido con 🛠️
 
