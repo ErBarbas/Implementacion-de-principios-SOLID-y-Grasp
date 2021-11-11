@@ -4,7 +4,7 @@ Actividad 2 de la asignatura fundamentos de diseño. Universidad Ibero.
 
 ### Pre-requisitos 📋
 
-* Tener instalado:
+Tener instalado:
 * **Python** - https://www.python.org
 
 ## Construido con 🛠️
