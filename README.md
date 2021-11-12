@@ -17,4 +17,4 @@ Tener instalado:
 * **Carlos Alberto Pinilla Bautista** - *pendiente* - [ErBarbas](https://github.com/ErBarbas)
 * **Juan Sebastian Martinez Higuita** - *pendiente* - [Jmart10](https://github.com/Jmart10)
 * **Julior Jose Osorio Pacheco** - *pendiente* - [Jmart10](https://github.com/Jmart10)
-* **Carol Andres Gutierrez Moreno** - *pendiente* - [Jmart10](https://github.com/Jmart10)
+* **Carol Andrea Gutièrrez Romero** - *pendiente* - [Jmart10](https://github.com/Jmart10)
