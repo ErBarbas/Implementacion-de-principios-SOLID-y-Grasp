@@ -1,52 +1,45 @@
-# Este es un comentario de prueba.
-# como que no se que poner
-from Persona import Persona
+from Class.Baby import Baby
+from Class.Kid import Kid
+from Class.Teen import Teen
 
 '''
 Para el principio de abierto / cerrado debemos hacer que el codigo que tenemos funcione sin importar la cantidad
 de instancias que tengamos.
 
 Mala practica: Crear condiciones innecesarias para imprimir cada persona.
-
-persona1 = Persona()
-persona1.edad = 18
-
-persona2 = Persona()
-persona2.edad = 16
-
-persona3 = Persona()
-persona3.edad = 13
-
 Ejemplo:
-if persona1.edad == 18 : print("Persona1 es mayor")
-if persona2.edad == 18 : print("Persona2 es mayor")
-if persona3.edad == 18 : print("Persona3 es mayor")
-if persona1.edad < 18 : print("Persona1 es menor")
-if persona2.edad < 18 : print("Persona2 es menor")
-if persona3.edad < 18 : print("Persona3 es menor")
+
+persons = [
+    Person('Carlos', 18, 'Masculino'),
+    Person('Carol', 13, 'Feminino'),
+    Person('Julior', 3, 'Masculino')
+]
+
+for person in persons:
+    if person.age < 5:
+        print('Agugu gaga')
+    elif 5 < person.age < 13:
+        print('Me cuesta mucho leer!')
+    elif 13 < person.age < 18:
+        print('Estoy leyendo sin problema pero con un poco de torpeza..')
+    elif 18 < person.age < 45:
+        print('Leo sin ningún problema!')
+    elif person.age > 45:
+        print('Donde están mis lentes!')
+
 
 Buena practica: Crear codigo para n instancias:
-Ejemplo: 
+Ejemplo:
 
-Si tenemos 5 Personas y queremos mostrar sus edades, lo ideal sería hacer lo siguiente:
+Si tenemos 3 Personas y queremos ejecutar un metodo personalizado para cada instancia, lo ideal 
+sería hacer lo siguiente:
 '''
 
-persona1 = Persona()
-persona1.nombre = 'Carlos'
-persona1.edad = 18
+persons = [
+    Teen('Carlos', 17, 'Masculino'),
+    Kid('Carol', 12, 'Feminino'),
+    Baby('Julior', 3, 'Masculino')
+]
 
-persona2 = Persona()
-persona2.nombre = 'Carol'
-persona2.edad = 16
-
-persona3 = Persona()
-persona3.nombre = 'Julior'
-persona3.edad = 19
-
-personas = [persona1, persona2, persona3]
-
-for persona in personas:
-    if persona.edad >= 18:
-        print(persona.nombre + " es mayor")
-    else:
-        print(persona.nombre + " es menor")
+for person in persons:
+    print(person.name + " dice: " + person.read())
