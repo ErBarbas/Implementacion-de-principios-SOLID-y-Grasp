@@ -3,6 +3,7 @@ from Class.Kid import Kid
 from Class.Teen import Teen
 
 '''
+segundo principio SOILD
 Para el principio de abierto / cerrado debemos hacer que el codigo que tenemos funcione sin importar la cantidad
 de instancias que tengamos.
 
