@@ -1,17 +1,17 @@
 from abc import abstractmethod
-
 from Enum.Gender import Gender
 
 
 class Person:
 
-    def __init__(self, name: str, age: int, gender: Gender):
-        if age < 0:
-            raise Exception('La edad {} no es valida para una persona!'.format(age))
+    __name = ''
+    __age = 0
+    __gender = ''
 
-        self.__name = name
-        self.__age = age
-        self.__gender = gender
+    def __init__(self, name: str, age: int, gender: Gender):
+        self.name = name
+        self.age = age
+        self.gender = gender
 
     @property
     def name(self) -> str:
@@ -19,6 +19,9 @@ class Person:
 
     @name.setter
     def name(self, value: str) -> None:
+        if not value:
+            raise Exception('{} no es un nombre valido para una persona!'.format(value))
+
         self.__name = value
 
     @property
@@ -27,6 +30,9 @@ class Person:
 
     @age.setter
     def age(self, value: int) -> None:
+        if value < 0:
+            raise Exception('La edad {} no es valida para una persona!'.format(value))
+
         self.__age = value
 
     @property
