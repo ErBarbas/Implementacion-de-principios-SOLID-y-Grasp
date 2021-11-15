@@ -1,8 +1,7 @@
-from Class.Person.Person import Person
+from Class.Person import Person
 
 
 class Baby(Person):
-
     def __init__(self, name, age, gender):
         if 0 < age < 5:
             self.age = age
@@ -12,4 +11,4 @@ class Baby(Person):
         super().__init__(name, self.age, gender)
 
     def read(self):
-        return 'Agugu gaga'
+        print('Agugu gaga')

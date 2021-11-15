@@ -1,13 +1,13 @@
 class PersonDB:
 
     @staticmethod
-    def save_person():
+    def save_person() -> None:
         print("Guardando persona...")
 
     @staticmethod
-    def update_person():
+    def update_person() -> None:
         print("Actualizando persona...")
 
     @staticmethod
-    def delete_person():
+    def delete_person() -> None:
         print("Eliminando persona...")

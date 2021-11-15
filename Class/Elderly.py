@@ -1,4 +1,4 @@
-from Class.Person.Person import Person
+from Class.Person import Person
 
 
 class Elderly(Person):
@@ -12,4 +12,4 @@ class Elderly(Person):
         super().__init__(name, self.age, gender)
 
     def read(self):
-        return 'Donde están mis lentes!'
+        print('Donde están mis lentes!')

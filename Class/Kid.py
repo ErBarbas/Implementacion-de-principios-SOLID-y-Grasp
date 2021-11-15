@@ -1,4 +1,4 @@
-from Class.Person.Person import Person
+from Class.Person import Person
 
 
 class Kid(Person):
@@ -12,4 +12,4 @@ class Kid(Person):
         super().__init__(name, self.age, gender)
 
     def read(self):
-        return 'Me cuesta mucho leer!'
+        print('Me cuesta mucho leer!')
