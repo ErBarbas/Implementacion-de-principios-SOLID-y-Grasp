@@ -14,7 +14,7 @@ Tener instalado:
 
 ## Autores ✒️
 
-* **Carlos Alberto Pinilla Bautista** - *pendiente* - [ErBarbas](https://github.com/ErBarbas)
-* **Juan Sebastian Martinez Higuita** - *pendiente* - [Jmart10](https://github.com/Jmart10)
-* **Julior Jose Osorio Pacheco** - *pendiente* - [Jmart10](https://github.com/Jmart10)
-* **Carol Andrea Gutièrrez Romero** - *pendiente* - [Jmart10](https://github.com/Jmart10)
+* **Carlos Alberto Pinilla Bautista** - [ErBarbas](https://github.com/ErBarbas)
+* **Juan Sebastian Martinez Higuita** - [Jmart10](https://github.com/Jmart10)
+* **Julior Jose Osorio Pacheco** - [Jmart10](https://github.com/Jmart10)
+* **Carol Andrea Gutièrrez Romero** - [Jmart10](https://github.com/Jmart10)
