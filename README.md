@@ -16,5 +16,5 @@ Tener instalado:
 
 * **Carlos Alberto Pinilla Bautista** - [ErBarbas](https://github.com/ErBarbas)
 * **Juan Sebastian Martinez Higuita** - [Jmart10](https://github.com/Jmart10)
-* **Julior Jose Osorio Pacheco** - [Jmart10](https://github.com/Jmart10)
-* **Carol Andrea Gutièrrez Romero** - [Jmart10](https://github.com/Jmart10)
+* **Julior Jose Osorio Pacheco** - [julior5](https://github.com/julior5)
+* **Carol Andrea Gutièrrez Romero** - [Andrea](https://github.com/CarolG26)
